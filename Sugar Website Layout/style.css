@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar-brand{
+    color: darkgoldenrod;
+    font-family: "Playfair Display", serif;
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+}
+
+.nav-item a{
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    font-weight: 800;
+    
+}
+.nav-item a:hover{
+    color: rgb(51, 47, 47);
+}
+
+.nav-bg{
+    background-image: url(img/Slide.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 100vh;
+    /* position: relative; */
+    
+}
+
+
+/* slide */
+.slide{
+    color: #3E4A59;
+}
+
+.slide .btn{
+    
+    border: 1px solid darkgoldenrod ;
+    border-radius: o;
+    text-transform: uppercase;
+    color: darkgoldenrod;
+}
+.slide .btn:hover{
+    border: 1px solid darkgoldenrod ;
+    border-radius: o;
+    text-transform: uppercase;
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.slide h1{
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 1.1;
+    color: darkgoldenrod;
+}
+
+@media screen and (max-width: 600px) {
+    .slide h1 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+  }
+
+/* sec2 */
+
+
+.sec2 .card{
+    box-shadow: 5px 8px 20px 4px rgb(0 91 175 / 20%);
+    border: none;
+}
+
+
+/* sec3 */
+
+.sec3 img{
+    width: 100%;   
+
+}
+
+/* sec4 */
+.sec4{
+    background-color: #F2F2F2;
+}
+
+.sec4 .card{
+    background-color: transparent;
+    border: none;
+}
+
+
+
+
+.sec4 .btn{
+    
+    border: 1px solid darkgoldenrod ;
+    border-radius: o;
+    text-transform: uppercase;
+    color: darkgoldenrod;
+}
+.sec4 .btn:hover{
+    border: 1px solid darkgoldenrod ;
+    border-radius: o;
+    text-transform: uppercase;
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+
+/* sec5 */
+.sec5 .row{
+    box-sizing: border-box;
+}
+
+.sec5 .card {
+    height: 250px;
+}
+
+@media (max-width: 991px){
+.sec5 .card {
+    min-height: 310px;
+}
+}
+@media (max-width: 1199px){
+    .sec5 .card  {
+    min-height: 254px;
+}
+}
+
+.sec5 .c2 .c4{
+    border: 3px solid darkgoldenrod;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sec9 */
+
+
+.sec9{
+    
+}
+
+.sec9 h2{    
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+
+.sec9 .btn{
+    background-color: #E0E5EB;
+    border: none;
+    border-radius: 0%;
+    font-weight: 500;   
+    color: black;
+}
+.sec9 .btn:hover {
+    background-color: #c5cacfc4;
+    border: none;
+    border-radius: 0%;
+    font-weight: 500; 
+    color: black;  
+}
+
+
+.sec9 .form-control{
+    background-color: #d7e8fcef;
+    border-radius: 0%;  
+    border: none;  
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*FOOOTER*/
+.footer{
+    background-color: #333333;
+    padding: 50px;
+}
+
+.footer h5 {
+    color: white;
+}
+.text{
+    color: rgb(196, 192, 192);
+}
+
+.footer ul li{
+    color: white;
+    list-style: none;
+}
+
+.footer ul li i{
+    margin: 5px;
+}
+
+.footer i{
+    margin-left: 15px;
+}
+
+.copyright{
+    background-color: black;
+    
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #858E99;
+}
+
+.cr{
+    color: rgb(163, 157, 157);
+}
